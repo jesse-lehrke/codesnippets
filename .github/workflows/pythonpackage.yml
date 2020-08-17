@@ -35,5 +35,5 @@ deploy_heroku:
        - uses: akhileshns/heroku-deploy@v3.0.4 # This is the action
          with:
            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-           heroku_app_name: "code-snippet-tools" # Must be unique in Heroku
+           heroku_app_name: "code-snippets-tools" # Must be unique in Heroku
            heroku_email: "j.p.lehrke@gmail.com"
