@@ -1,0 +1,3 @@
+graft codesnippets
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  codesnippets/jupy *
